@@ -83,9 +83,15 @@ void inorder(struct TreapNode *root) {
 }
 
 
+struct TreapNode* search(struct TreapNode* root, int key) {
 
-int search(struct TreapNode* root, int key) {
-
+           if(root == NULL || root->key == key) {
+              return root;
+           } else if(root->key < key) {
+             return search(root->right, key);
+           } else {
+             return search(root->left, key);
+           }
 }
 
 int main(int argc, char const *argv[]) {
@@ -98,5 +104,12 @@ int main(int argc, char const *argv[]) {
   root = insert(root, 13);
   root = insert(root, 23);
   inorder(root);
+  int key = 10;
+  struct TreapNode*ans = search(root, key);
+  if(ans == NULL) {
+    printf("%s", "Not Found");
+  } else {
+    printf("%s", "Is Found");
+  }
   return 0;
 }
