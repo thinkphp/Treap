@@ -1,11 +1,12 @@
 # Treap
 
-## Time Complexity in Big O Notation:
+### Time Complexity in Big O Notation:
+
 * Best Case, Average Case, Worst Case
 * Search: log n
 * Insert: log n
 * Delete: log n
 * Space O(n)
 
-# Demo
+### Demo
 * https://ideone.com/NGFPQ5
