@@ -6,3 +6,6 @@
 * Insert: log n
 * Delete: log n
 * Space O(n)
+
+# Demo
+* https://ideone.com/NGFPQ5
