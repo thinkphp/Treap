@@ -1,4 +1,4 @@
-# Treap
+# Treap Data Structure (Tree + Heap)
 
 ### Time Complexity in Big O Notation:
 
