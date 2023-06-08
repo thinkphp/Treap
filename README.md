@@ -1,4 +1,6 @@
-# Treap Data Structure (Tree + Heap)
+# Treap Data Structure
+A treap is a data structure which combines binary tree and binary heap (hence the name: tree + heap  
+=> Treap).
 
 ### Time Complexity in Big O Notation:
 
