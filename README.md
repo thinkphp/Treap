@@ -11,4 +11,9 @@ A treap is a data structure which combines binary tree and binary heap (hence th
 * Space O(n)
 
 ### Demo
+
 * https://ideone.com/NGFPQ5
+
+### References 
+
+https://cp-algorithms.com/data_structures/treap.html
